@@ -32,6 +32,7 @@ address {
   outline: 2px solid red;
 }
 body {
+  margin: 0;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: 'Roboto', sans-serif;
@@ -40,7 +41,6 @@ body {
   list-style: none;
 }
 
-/* header */
 .logo {
   font-family: Raleway, cursive;
   text-decoration: none;
@@ -58,6 +58,10 @@ body {
   color: #000000;
 }
 /*----------------------- header -------------------------*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .header-link {
   color: var(--title-text-color);
   text-decoration: none;
@@ -84,17 +88,25 @@ body {
   letter-spacing: 0.02em;
 }
 /*----------------------- hero -------------------------*/
-.hero-title {
+.hero {
   background-color: #2f303a;
+}
+.hero-title {
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 30px;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-btn {
+  margin-bottom: 200px;
+  text-align: center;
+  margin-bottom: 200px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -108,7 +120,16 @@ body {
   background-color: #188ce8;
 }
 /* -------------- features ------------------------- */
+.features-list {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  width: 1170px;
+}
+.features-item {
+  width: 270px;
+}
 .features-subtitle {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -121,18 +142,35 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-/*----------------------- our team -------------------------*/
-.team {
-  background: #f5f4fa;
-}
-.work-title,
-.team-title {
+/*----------------------- work-------------------------*/
+.work-title {
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.work-list {
+  margin-bottom: 94px;
+}
+/*----------------------- our team -------------------------*/
+.team {
+  background: #f5f4fa;
+}
+.team-title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-list {
+  margin-bottom: 94px;
 }
 .team-subtitle {
   color: var(--title-text-color);
@@ -157,6 +195,8 @@ body {
 }
 /*----------------------- footer -------------------------*/
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 .footer .logo-item {
