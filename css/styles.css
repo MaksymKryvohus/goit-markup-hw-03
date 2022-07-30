@@ -309,8 +309,8 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
 .portfolio-title {
-  margin-top: 20px;
   margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -360,4 +360,9 @@ body {
 .portfolio-item { 
   width: calc((100% - 90px) / 3);
   margin: 15px;
+}
+.filter-text {
+  padding-top: 20px;
+  border: 1px solid #EEEEEE;
+  border-top: 0;
 }
